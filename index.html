@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Autobiografia</title>
-    </head>
-    <body>
-        <header>
-            <h1>Quem sou eu?</h1>
-        </header>
-
-        <main>
-            <section>
-                <h2>Dados pessoais:</h2>
-                <p>Meu nome é <strong>Kawan Felipe Machado Luz</strong></p>
-                <p>Faço Curso de: <B>Desinvolvimento de sistemas</B></p>
-                <p>Estudo no colégio UNIDADE POLO DE ARAPONGAS</p>
-                <p>Uma curiosidade sobre mim é GOSTO DE JOGAR JOGOS/p>
-                
-                <div>
-                    <h3>Uma foto de mim</h3>
-                    <img src="eu.jpg" alt="uma foto de mim">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perfil de Kawan Felipe</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="profile-header">
+                <img src="eu.jpg" alt="Foto de Kawan Felipe" class="profile-pic">
+                <div class="profile-info">
+                    <h1>Kawan Felipe</h1>
+                    <p class="bio">Desenvolvedor Web | Estudante de sistemas | Apaixonado por tecnologia e jogos.</p>
                 </div>
-            </section>
-    
-            <section>
-                <h2>Coisas que eu gosto:</h2>
-                <ul>
-                    <li>Jogar</li>
-                    <li>Assistir filmes</li>
-                    <li>Sair aos fins de semana</li>
-                    <li>Café</li>   
-                </ul>
-            </section>
-    
-            <section>
-                <h2>Coisas que eu não gosto (em ordem):</h2>
-                <ol>
-                    <li>Motoristas ruins</li>
-                    <li>Horarios fixos</li>
-                    <li>Mentiras</li>
-                </ol>
-            </section>
-    
-            <section>
-                <h2>Um site que gosto de acessar é:</h2>
-                <a href="https://gemini.google.com/app?hl=pt-BR" target="_blank">Spotify</a>
-            </section>
-        </main>
+            </div>
+        </div>
+    </header>
 
-        <footer>
-            <p>Atividade desenvolvida durante o curso de Fundamentos de Tecnologias Web</p>
-        </footer>
+    <main class="content">
+        <div class="container">
+            <div class="cards-container">
+                <section class="card">
+                    <h2>Dados Pessoais</h2>
+                    <p><strong>Nome:</strong> Kawan Felipe Machado Luz</p>
+                    <p><strong>Curso:</strong> Desenvolvimento de sistemas</p>
+                    <p><strong>Instituição:</strong> Colégio UNIDADE POLO DE ARAPONGAS</p>
+                    <p><strong>Curiosidade:</strong> Gosto de jogar jogos</p>
+                </section>
 
-        <script src="main.js"></script>
-    </body>
+                <section class="card">
+                    <h2>Coisas que eu gosto:</h2>
+                    <ul>
+                        <li>Jogar</li>
+                        <li>Assistir filmes</li>
+                        <li>Sair aos fins de semana</li>
+                        <li>Café</li>
+                    </ul>
+                </section>
 
+                <section class="card">
+                    <h2>Coisas que eu não gosto:</h2>
+                    <ol>
+                        <li>Motoristas ruins</li>
+                        <li>Horários fixos</li>
+                        <li>Mentiras</li>
+                    </ol>
+                </section>
+
+                <section class="card">
+                    <h2>Um site que gosto de acessar:</h2>
+                    <a href="https://gemini.google.com/app?hl=pt-BR" target="_blank">Spotify</a>
+                </section>
+
+                <section class="card">
+                    <h2>Contato</h2>
+                    <p>Email: kawan.felipe@example.com</p>
+                    <p>Telefone: (11) 99999-9999</p>
+                </section>
+
+                <section class="card">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Atividade desenvolvida durante o curso de Fundamentos de Tecnologias Web</p>
+    </footer>
+</body>
 </html>
